@@ -28225,7 +28225,7 @@
 		(layer "Edge.Cuts")
 		(uuid "0da67502-d827-45bb-a54b-66173e3a2032")
 	)
-	(gr_text "(c) fishpepper"
+	(gr_text "myOpenEsc"
 		(at 109.4049 114.6944 270)
 		(layer "F.SilkS")
 		(uuid "00000000-0000-0000-0000-000058af8e41")
@@ -28236,7 +28236,7 @@
 			)
 		)
 	)
-	(gr_text "rev 0.4\n04/18"
+	(gr_text "rev0.1"
 		(at 117.3353 109.9839 270)
 		(layer "F.SilkS")
 		(uuid "00000000-0000-0000-0000-000058af8e4d")

@@ -732,6 +732,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "custom:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "custom:NPN"
 			(pin_names
 				(offset 1.016)
@@ -1185,262 +1300,146 @@
 			)
 			(embedded_fonts no)
 		)
-	
-		(symbol "custom:GND"
-		(power global)
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(offset 0)
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "#PWR"
-			(at 0 -6.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 0 -3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "global power"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "GND_0_1"
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "GND_1_1"
-			(pin power_in line
-				(at 0 0 270)
-				(length 0)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 		(symbol "custom:VCC"
-		(power global)
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(offset 0)
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "#PWR"
-			(at 0 -3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+			(power global)
+			(pin_numbers
+				(hide yes)
 			)
-		)
-		(property "Value" "VCC"
-			(at 0 3.556 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+			(pin_names
+				(offset 0)
+				(hide yes)
 			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "global power"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "VCC_0_1"
-			(polyline
-				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "VCC_1_1"
-			(pin power_in line
-				(at 0 0 90)
-				(length 0)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
-		(embedded_fonts no)
 	)
-)
 	(junction
 		(at 161.29 161.29)
 		(diameter 0)
@@ -3084,7 +3083,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f76060")
-		(property "Reference" "U201"
+		(property "Reference" "U2"
 			(at 99.06 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3201,19 +3200,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "U201")
+					(reference "U2")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "U201")
+					(reference "U3")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "U201")
+					(reference "U4")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "U201")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3230,7 +3229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f78276")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR010"
 			(at 213.36 62.865 0)
 			(hide yes)
 			(show_name no)
@@ -3282,22 +3281,25 @@
 				)
 			)
 		)
+		(pin "1"
+			(uuid "795a6f4b-0a21-4939-95ab-6d652acbd66b")
+		)
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "#PWR01")
+					(reference "#PWR010")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "#PWR01")
+					(reference "#PWR025")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "#PWR01")
+					(reference "#PWR040")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "#PWR01")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -3314,7 +3316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f78285")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR014"
 			(at 216.535 83.185 0)
 			(hide yes)
 			(show_name no)
@@ -3365,22 +3367,25 @@
 				)
 			)
 		)
+		(pin "1"
+			(uuid "c1f2048a-b980-40fe-a824-79b46e9c504f")
+		)
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "#PWR02")
+					(reference "#PWR014")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "#PWR02")
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "#PWR02")
+					(reference "#PWR044")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "#PWR02")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3397,7 +3402,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f78482")
-		(property "Reference" "TP202"
+		(property "Reference" "TP8"
 			(at 33.02 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3455,19 +3460,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "TP202")
+					(reference "TP8")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "TP202")
+					(reference "TP10")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "TP202")
+					(reference "TP12")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "TP202")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -3484,7 +3489,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f785f3")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR011"
 			(at 213.36 94.615 0)
 			(hide yes)
 			(show_name no)
@@ -3536,22 +3541,25 @@
 				)
 			)
 		)
+		(pin "1"
+			(uuid "190bad27-928e-4272-b718-380fdcdf169f")
+		)
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "#PWR03")
+					(reference "#PWR011")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "#PWR03")
+					(reference "#PWR026")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "#PWR03")
+					(reference "#PWR041")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "#PWR03")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3568,7 +3576,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f785f9")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR012"
 			(at 215.9 114.935 0)
 			(hide yes)
 			(show_name no)
@@ -3619,22 +3627,25 @@
 				)
 			)
 		)
+		(pin "1"
+			(uuid "27ffb14d-3507-45f0-96de-e987272ce855")
+		)
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "#PWR04")
+					(reference "#PWR012")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "#PWR04")
+					(reference "#PWR027")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "#PWR04")
+					(reference "#PWR042")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "#PWR04")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3651,7 +3662,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f785ff")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 215.265 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3702,22 +3713,25 @@
 				)
 			)
 		)
+		(pin "1"
+			(uuid "81918546-1d72-4905-ab33-b6c79fd0f5ac")
+		)
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "#PWR05")
+					(reference "#PWR09")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "#PWR05")
+					(reference "#PWR024")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "#PWR05")
+					(reference "#PWR039")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "#PWR05")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -3734,7 +3748,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f78605")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR013"
 			(at 213.36 127 0)
 			(hide yes)
 			(show_name no)
@@ -3786,22 +3800,25 @@
 				)
 			)
 		)
+		(pin "1"
+			(uuid "022c0136-ec79-40e3-b4e1-d00233ea509b")
+		)
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "#PWR06")
+					(reference "#PWR013")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "#PWR06")
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "#PWR06")
+					(reference "#PWR043")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "#PWR06")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -3818,7 +3835,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f787a6")
-		(property "Reference" "R203"
+		(property "Reference" "R13"
 			(at 235.712 55.245 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3878,19 +3895,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R203")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R203")
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R203")
+					(reference "R53")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R203")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -3907,7 +3924,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f787b5")
-		(property "Reference" "R205"
+		(property "Reference" "R15"
 			(at 240.792 55.245 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3967,19 +3984,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R205")
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R205")
+					(reference "R35")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R205")
+					(reference "R55")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R205")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -3996,7 +4013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f787c4")
-		(property "Reference" "R207"
+		(property "Reference" "R17"
 			(at 245.872 55.245 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4056,19 +4073,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R207")
+					(reference "R17")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R207")
+					(reference "R37")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R207")
+					(reference "R57")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R207")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -4085,7 +4102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f788ee")
-		(property "Reference" "R202"
+		(property "Reference" "R12"
 			(at 235.712 36.195 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4145,19 +4162,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R202")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R202")
+					(reference "R32")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R202")
+					(reference "R52")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R202")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -4174,7 +4191,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f788f4")
-		(property "Reference" "R204"
+		(property "Reference" "R14"
 			(at 240.792 36.195 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4234,19 +4251,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R204")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R204")
+					(reference "R34")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R204")
+					(reference "R54")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R204")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -4263,7 +4280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f788fa")
-		(property "Reference" "R206"
+		(property "Reference" "R16"
 			(at 245.872 36.195 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4323,19 +4340,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R206")
+					(reference "R16")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R206")
+					(reference "R36")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R206")
+					(reference "R56")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R206")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -4352,7 +4369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f78eab")
-		(property "Reference" "OUT_A201"
+		(property "Reference" "OUT_A1"
 			(at 257.81 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4410,19 +4427,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "OUT_A201")
+					(reference "OUT_A1")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "OUT_A201")
+					(reference "OUT_A2")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "OUT_A201")
+					(reference "OUT_A3")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "OUT_A201")
+					(reference "OUT_A4")
 					(unit 1)
 				)
 			)
@@ -4439,7 +4456,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f78ec3")
-		(property "Reference" "OUT_B201"
+		(property "Reference" "OUT_B1"
 			(at 257.81 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4497,19 +4514,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "OUT_B201")
+					(reference "OUT_B1")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "OUT_B201")
+					(reference "OUT_B2")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "OUT_B201")
+					(reference "OUT_B3")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "OUT_B201")
+					(reference "OUT_B4")
 					(unit 1)
 				)
 			)
@@ -4526,7 +4543,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f78ec9")
-		(property "Reference" "OUT_C201"
+		(property "Reference" "OUT_C1"
 			(at 257.81 137.795 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4584,19 +4601,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "OUT_C201")
+					(reference "OUT_C1")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "OUT_C201")
+					(reference "OUT_C2")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "OUT_C201")
+					(reference "OUT_C3")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "OUT_C201")
+					(reference "OUT_C4")
 					(unit 1)
 				)
 			)
@@ -4613,7 +4630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f791a3")
-		(property "Reference" "C201"
+		(property "Reference" "C5"
 			(at 40.64 69.215 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4675,19 +4692,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "C201")
+					(reference "C5")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "C201")
+					(reference "C9")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "C201")
+					(reference "C13")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "C201")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -4704,7 +4721,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f796df")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR01"
 			(at 36.83 67.945 0)
 			(hide yes)
 			(show_name no)
@@ -4756,22 +4773,25 @@
 				)
 			)
 		)
+		(pin "1"
+			(uuid "85252d03-32ec-4999-bf0e-a07e0cf75be4")
+		)
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "#PWR07")
+					(reference "#PWR01")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "#PWR07")
+					(reference "#PWR016")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "#PWR07")
+					(reference "#PWR031")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "#PWR07")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4788,7 +4808,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f796e5")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR02"
 			(at 36.83 75.565 0)
 			(hide yes)
 			(show_name no)
@@ -4839,22 +4859,25 @@
 				)
 			)
 		)
+		(pin "1"
+			(uuid "fb95c529-4509-4434-9c68-23ec57fc18ff")
+		)
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "#PWR08")
+					(reference "#PWR02")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "#PWR08")
+					(reference "#PWR017")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "#PWR08")
+					(reference "#PWR032")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "#PWR08")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -4871,7 +4894,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f796eb")
-		(property "Reference" "C202"
+		(property "Reference" "C6"
 			(at 45.72 69.215 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4933,19 +4956,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "C202")
+					(reference "C6")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "C202")
+					(reference "C10")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "C202")
+					(reference "C14")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "C202")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4962,7 +4985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057f79dfa")
-		(property "Reference" "R201"
+		(property "Reference" "R1"
 			(at 42.545 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5022,19 +5045,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R201")
+					(reference "R1")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R201")
+					(reference "R21")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R201")
+					(reference "R41")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R201")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -5051,7 +5074,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058750948")
-		(property "Reference" "BL_TX201"
+		(property "Reference" "BL_TX1"
 			(at 42.545 60.325 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5109,19 +5132,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "BL_TX201")
+					(reference "BL_TX1")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "BL_TX201")
+					(reference "BL_TX2")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "BL_TX201")
+					(reference "BL_TX3")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "BL_TX201")
+					(reference "BL_TX4")
 					(unit 1)
 				)
 			)
@@ -5139,7 +5162,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058ad57e8")
-		(property "Reference" "FET201"
+		(property "Reference" "FET1"
 			(at 198.12 55.5752 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5218,19 +5241,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "FET201")
+					(reference "FET1")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "FET201")
+					(reference "FET4")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "FET201")
+					(reference "FET7")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "FET201")
+					(reference "FET10")
 					(unit 1)
 				)
 			)
@@ -5248,7 +5271,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058ad62ed")
-		(property "Reference" "FET202"
+		(property "Reference" "FET2"
 			(at 198.12 87.3252 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5327,19 +5350,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "FET202")
+					(reference "FET2")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "FET202")
+					(reference "FET5")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "FET202")
+					(reference "FET8")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "FET202")
+					(reference "FET11")
 					(unit 1)
 				)
 			)
@@ -5357,7 +5380,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058ad71f4")
-		(property "Reference" "FET203"
+		(property "Reference" "FET3"
 			(at 198.12 119.7102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5436,19 +5459,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "FET203")
+					(reference "FET3")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "FET203")
+					(reference "FET6")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "FET203")
+					(reference "FET9")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "FET203")
+					(reference "FET12")
 					(unit 1)
 				)
 			)
@@ -5465,7 +5488,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058ad934b")
-		(property "Reference" "C203"
+		(property "Reference" "C7"
 			(at 50.8 69.215 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5527,19 +5550,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "C203")
+					(reference "C7")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "C203")
+					(reference "C11")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "C203")
+					(reference "C15")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "C203")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -5556,7 +5579,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058ad947f")
-		(property "Reference" "C204"
+		(property "Reference" "C8"
 			(at 55.88 69.215 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5618,19 +5641,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "C204")
+					(reference "C8")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "C204")
+					(reference "C12")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "C204")
+					(reference "C16")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "C204")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -5647,7 +5670,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058adf042")
-		(property "Reference" "T201"
+		(property "Reference" "T1"
 			(at 170.815 77.5462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5711,19 +5734,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "T201")
+					(reference "T1")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "T201")
+					(reference "T4")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "T201")
+					(reference "T7")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "T201")
+					(reference "T10")
 					(unit 1)
 				)
 			)
@@ -5740,7 +5763,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058adf236")
-		(property "Reference" "R214"
+		(property "Reference" "R11"
 			(at 163.195 73.533 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5800,19 +5823,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R214")
+					(reference "R11")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R214")
+					(reference "R31")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R214")
+					(reference "R51")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R214")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -5829,7 +5852,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058adf426")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR05"
 			(at 154.94 73.025 0)
 			(hide yes)
 			(show_name no)
@@ -5880,22 +5903,25 @@
 				)
 			)
 		)
+		(pin "1"
+			(uuid "b1afecd8-e9cc-4045-88e2-e9112a5e941a")
+		)
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "#PWR010")
+					(reference "#PWR05")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "#PWR010")
+					(reference "#PWR020")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "#PWR010")
+					(reference "#PWR035")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "#PWR010")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5912,7 +5938,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058adf84c")
-		(property "Reference" "R211"
+		(property "Reference" "R3"
 			(at 156.21 88.392 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5972,19 +5998,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R211")
+					(reference "R3")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R211")
+					(reference "R23")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R211")
+					(reference "R43")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R211")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -6001,7 +6027,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058adf9c4")
-		(property "Reference" "R217"
+		(property "Reference" "R8"
 			(at 159.258 92.075 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6061,19 +6087,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R217")
+					(reference "R8")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R217")
+					(reference "R28")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R217")
+					(reference "R48")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R217")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -6090,7 +6116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058adfa98")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR06"
 			(at 161.29 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6142,22 +6168,25 @@
 				)
 			)
 		)
+		(pin "1"
+			(uuid "7c2ce666-7a57-4b12-8fce-521097130b3a")
+		)
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "#PWR011")
+					(reference "#PWR06")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "#PWR011")
+					(reference "#PWR021")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "#PWR011")
+					(reference "#PWR036")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "#PWR011")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6174,7 +6203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058adfdda")
-		(property "Reference" "R208"
+		(property "Reference" "R18"
 			(at 250.825 43.942 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6234,19 +6263,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R208")
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R208")
+					(reference "R38")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R208")
+					(reference "R58")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R208")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -6263,7 +6292,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058adfe8a")
-		(property "Reference" "R209"
+		(property "Reference" "R19"
 			(at 258.445 47.752 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6323,19 +6352,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R209")
+					(reference "R19")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R209")
+					(reference "R39")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R209")
+					(reference "R59")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R209")
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -6352,7 +6381,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058adff04")
-		(property "Reference" "R210"
+		(property "Reference" "R20"
 			(at 266.065 51.562 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6412,19 +6441,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R210")
+					(reference "R20")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R210")
+					(reference "R40")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R210")
+					(reference "R60")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R210")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -6441,7 +6470,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058ae071d")
-		(property "Reference" "T202"
+		(property "Reference" "T2"
 			(at 170.815 109.2962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6505,19 +6534,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "T202")
+					(reference "T2")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "T202")
+					(reference "T5")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "T202")
+					(reference "T8")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "T202")
+					(reference "T11")
 					(unit 1)
 				)
 			)
@@ -6534,7 +6563,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058ae0725")
-		(property "Reference" "R212"
+		(property "Reference" "R4"
 			(at 156.21 120.142 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6594,19 +6623,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R212")
+					(reference "R4")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R212")
+					(reference "R24")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R212")
+					(reference "R44")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R212")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -6623,7 +6652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058ae072b")
-		(property "Reference" "R218"
+		(property "Reference" "R9"
 			(at 159.258 123.825 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6683,19 +6712,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R218")
+					(reference "R9")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R218")
+					(reference "R29")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R218")
+					(reference "R49")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R218")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -6712,7 +6741,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058ae0731")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR07"
 			(at 161.29 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6764,22 +6793,25 @@
 				)
 			)
 		)
+		(pin "1"
+			(uuid "ea8ebe5f-c712-40f9-b2b5-c3c0c31f135a")
+		)
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "#PWR012")
+					(reference "#PWR07")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "#PWR012")
+					(reference "#PWR022")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "#PWR012")
+					(reference "#PWR037")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "#PWR012")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -6796,7 +6828,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058ae1382")
-		(property "Reference" "R215"
+		(property "Reference" "R6"
 			(at 160.655 105.283 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6856,19 +6888,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R215")
+					(reference "R6")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R215")
+					(reference "R26")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R215")
+					(reference "R46")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R215")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -6885,7 +6917,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058ae1388")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR03"
 			(at 152.4 104.775 0)
 			(hide yes)
 			(show_name no)
@@ -6936,22 +6968,25 @@
 				)
 			)
 		)
+		(pin "1"
+			(uuid "859e5bbe-1bcd-443b-bbe8-1bb6a7054e9b")
+		)
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "#PWR013")
+					(reference "#PWR03")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "#PWR013")
+					(reference "#PWR018")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "#PWR013")
+					(reference "#PWR033")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "#PWR013")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6968,7 +7003,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058ae1633")
-		(property "Reference" "T203"
+		(property "Reference" "T3"
 			(at 170.815 141.6812 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7032,19 +7067,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "T203")
+					(reference "T3")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "T203")
+					(reference "T6")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "T203")
+					(reference "T9")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "T203")
+					(reference "T12")
 					(unit 1)
 				)
 			)
@@ -7061,7 +7096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058ae163a")
-		(property "Reference" "R213"
+		(property "Reference" "R5"
 			(at 156.21 152.527 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7121,19 +7156,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R213")
+					(reference "R5")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R213")
+					(reference "R25")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R213")
+					(reference "R45")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R213")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -7150,7 +7185,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058ae1640")
-		(property "Reference" "R219"
+		(property "Reference" "R10"
 			(at 159.258 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7210,19 +7245,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R219")
+					(reference "R10")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R219")
+					(reference "R30")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R219")
+					(reference "R50")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R219")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -7239,7 +7274,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058ae1646")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR08"
 			(at 161.29 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -7291,22 +7326,25 @@
 				)
 			)
 		)
+		(pin "1"
+			(uuid "95901f6e-6df4-42bd-b0dc-8000e74e8387")
+		)
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "#PWR014")
+					(reference "#PWR08")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "#PWR014")
+					(reference "#PWR023")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "#PWR014")
+					(reference "#PWR038")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "#PWR014")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -7323,7 +7361,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058ae1657")
-		(property "Reference" "R216"
+		(property "Reference" "R7"
 			(at 160.655 137.668 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7383,19 +7421,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R216")
+					(reference "R7")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R216")
+					(reference "R27")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R216")
+					(reference "R47")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R216")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -7412,7 +7450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058ae165d")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR04"
 			(at 152.4 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7463,22 +7501,25 @@
 				)
 			)
 		)
+		(pin "1"
+			(uuid "f97484d3-ce51-44d1-9fcf-450721fef021")
+		)
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "#PWR015")
+					(reference "#PWR04")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "#PWR015")
+					(reference "#PWR019")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "#PWR015")
+					(reference "#PWR034")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "#PWR015")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7495,7 +7536,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058ae1fbe")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR015"
 			(at 273.685 52.705 0)
 			(hide yes)
 			(show_name no)
@@ -7547,22 +7588,25 @@
 				)
 			)
 		)
+		(pin "1"
+			(uuid "88e590f6-dd22-4b9d-b172-b5f0e6f529af")
+		)
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "#PWR09")
+					(reference "#PWR015")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "#PWR09")
+					(reference "#PWR030")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "#PWR09")
+					(reference "#PWR045")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "#PWR09")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -7579,7 +7623,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058afe090")
-		(property "Reference" "R220"
+		(property "Reference" "R2"
 			(at 59.69 53.213 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7639,19 +7683,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "R220")
+					(reference "R2")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "R220")
+					(reference "R22")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "R220")
+					(reference "R42")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "R220")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -7668,7 +7712,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058b06038")
-		(property "Reference" "TP203"
+		(property "Reference" "TP7"
 			(at 31.75 93.345 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7726,19 +7770,19 @@
 		(instances
 			(project "tinyPEPPER2"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7ac44"
-					(reference "TP203")
+					(reference "TP7")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057f7b0c0"
-					(reference "TP203")
+					(reference "TP9")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3aac"
-					(reference "TP203")
+					(reference "TP11")
 					(unit 1)
 				)
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c/00000000-0000-0000-0000-000057fb3af9"
-					(reference "TP203")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
