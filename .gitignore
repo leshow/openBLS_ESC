@@ -3,3 +3,5 @@
 ~*.lck
 .history/
 rescue-backup/
+report.txt
+ERC.*
