@@ -9,7 +9,7 @@
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
         "board_outline_line_width": 0.1,
-        "copper_line_width": 0.254,
+        "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
@@ -209,9 +209,11 @@
         0.1524,
         0.2032,
         0.254,
+        0.4064,
         0.508,
         0.635,
-        0.762
+        0.762,
+        1.016
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -589,6 +591,10 @@
       },
       {
         "netclass": "Default",
+        "pattern": "/single esc 1/3V3"
+      },
+      {
+        "netclass": "Default",
         "pattern": "/single esc 1/Ac_0"
       },
       {
@@ -605,15 +611,11 @@
       },
       {
         "netclass": "Default",
+        "pattern": "/single esc 1/C2CK_0"
+      },
+      {
+        "netclass": "Default",
         "pattern": "/single esc 1/C2D_0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/single esc 1/Cc_0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/single esc 1/Cp_0"
       },
       {
         "netclass": "Default",
@@ -645,15 +647,11 @@
       },
       {
         "netclass": "Default",
+        "pattern": "/single esc 2/C2CK_0"
+      },
+      {
+        "netclass": "Default",
         "pattern": "/single esc 2/C2D_0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/single esc 2/Cc_0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/single esc 2/Cp_0"
       },
       {
         "netclass": "Default",
@@ -685,15 +683,11 @@
       },
       {
         "netclass": "Default",
+        "pattern": "/single esc 3/C2CK_0"
+      },
+      {
+        "netclass": "Default",
         "pattern": "/single esc 3/C2D_0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/single esc 3/Cc_0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/single esc 3/Cp_0"
       },
       {
         "netclass": "Default",
@@ -729,15 +723,11 @@
       },
       {
         "netclass": "Default",
+        "pattern": "/single esc 4/C2CK_0"
+      },
+      {
+        "netclass": "Default",
         "pattern": "/single esc 4/C2D_0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/single esc 4/Cc_0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/single esc 4/Cp_0"
       },
       {
         "netclass": "Default",
@@ -761,23 +751,87 @@
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(BL_TX1-Pad1)"
+        "pattern": "Net-(BL_TX201-Pad1)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(BL_TX2-Pad1)"
+        "pattern": "Net-(BL_TX301-Pad1)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(BL_TX3-Pad1)"
+        "pattern": "Net-(BL_TX401-Pad1)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(BL_TX4-Pad1)"
+        "pattern": "Net-(BL_TX501-Pad1)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R201-Pad1)"
+        "pattern": "Net-(C1003-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(FET201-Pad5)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(FET202-Pad5)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(FET203-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(FET203-Pad5)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(FET301-Pad5)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(FET302-Pad5)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(FET303-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(FET303-Pad5)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(FET401-Pad5)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(FET402-Pad5)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(FET403-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(FET403-Pad5)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(FET501-Pad5)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(FET502-Pad5)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(FET503-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(FET503-Pad5)"
       },
       {
         "netclass": "Default",
@@ -785,19 +839,35 @@
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R203-Pad2)"
+        "pattern": "Net-(R202-Pad2)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R205-Pad2)"
+        "pattern": "Net-(R204-Pad2)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R207-Pad2)"
+        "pattern": "Net-(R206-Pad2)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R301-Pad1)"
+        "pattern": "Net-(R211-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R212-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R213-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R213-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R220-Pad2)"
       },
       {
         "netclass": "Default",
@@ -805,19 +875,35 @@
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R303-Pad2)"
+        "pattern": "Net-(R302-Pad2)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R305-Pad2)"
+        "pattern": "Net-(R304-Pad2)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R307-Pad2)"
+        "pattern": "Net-(R306-Pad2)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R401-Pad1)"
+        "pattern": "Net-(R311-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R312-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R313-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R313-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R320-Pad2)"
       },
       {
         "netclass": "Default",
@@ -825,19 +911,35 @@
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R403-Pad2)"
+        "pattern": "Net-(R402-Pad2)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R405-Pad2)"
+        "pattern": "Net-(R404-Pad2)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R407-Pad2)"
+        "pattern": "Net-(R406-Pad2)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R501-Pad1)"
+        "pattern": "Net-(R411-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R412-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R413-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R413-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R420-Pad2)"
       },
       {
         "netclass": "Default",
@@ -845,63 +947,35 @@
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R503-Pad2)"
+        "pattern": "Net-(R502-Pad2)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R505-Pad2)"
+        "pattern": "Net-(R504-Pad2)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R507-Pad2)"
+        "pattern": "Net-(R506-Pad2)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(U201-Pad15)"
+        "pattern": "Net-(R511-Pad1)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(U201-Pad16)"
+        "pattern": "Net-(R512-Pad1)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(U201-Pad7)"
+        "pattern": "Net-(R513-Pad1)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(U301-Pad15)"
+        "pattern": "Net-(R513-Pad2)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(U301-Pad16)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U301-Pad7)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U401-Pad15)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U401-Pad16)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U401-Pad7)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U501-Pad15)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U501-Pad16)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U501-Pad7)"
+        "pattern": "Net-(R520-Pad2)"
       },
       {
         "netclass": "Default",
