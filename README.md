@@ -1,12 +1,10 @@
-# tinyPEPPER2 -- a tiny and lightweight 4in1 BLHeli_S ESC -- 2S edition
+# openBLS_ESC -- a tiny and lightweight 4in1 BLHeli_S ESC -- 2S edition
 
-My approach to build a small and lightweight ESC.
+Forked from [fishpepper's tinyPEPPER2](http://fishpepper.de/projects/tinyPEPPER2) and updated to build with a current version of KiCad.
 
-See [http://fishpepper.de/projects/tinyPEPPER2](http://fishpepper.de/projects/tinyPEPPER2) for more details.
+![openBLS_ESC render](doc/openBLS_ESC_render.png)
 
-![tinyPEPPER2 image](http://fishpepper.de/wp-content/uploads/2018/04/tinyPEPPER2-300x300.jpg)
-
-As [my previous tinyPEPPER 1S design](http://fishpepper.de/projects/tinyPEPPER), this thing is TINY as well! The outer dimensions are 20x20mm with a 16mm hole-to-hole spacing.
+The outer dimensions are 20x20mm with a 16mm hole-to-hole spacing.
 Of course it also runs BLHELI_S.
 
 Key features:
