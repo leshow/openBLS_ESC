@@ -1155,7 +1155,7 @@
         "uuid": "b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
       }
     ],
-    "used_designators": "U1-5,TP1-14,R1-80,OUT_B1-4,T1-12,H1-4,C1-20,OUT_C1-4,OUT_A1-4,BL_TX1-4,FET1-12,#PWR1-60",
+    "used_designators": "#FLG1-2,U1-5,TP1-14,R1-80,OUT_B1-4,T1-12,H1-4,C1-20,OUT_C1-4,OUT_A1-4,BL_TX1-4,FET1-12,#PWR1-60",
     "variants": []
   },
   "sheets": [
