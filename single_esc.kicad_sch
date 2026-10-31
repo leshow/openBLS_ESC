@@ -5172,7 +5172,7 @@
 				)
 			)
 		)
-		(property "Value" "UT6MA3"
+		(property "Value" "PMCPB5530X"
 			(at 198.12 58.2676 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5281,7 +5281,7 @@
 				)
 			)
 		)
-		(property "Value" "UT6MA3"
+		(property "Value" "PMCPB5530X"
 			(at 198.12 90.0176 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5390,7 +5390,7 @@
 				)
 			)
 		)
-		(property "Value" "UT6MA3"
+		(property "Value" "PMCPB5530X"
 			(at 198.12 122.4026 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5680,7 +5680,7 @@
 				)
 			)
 		)
-		(property "Value" "BC847"
+		(property "Value" "BC847BTT1G"
 			(at 170.815 80.2386 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6480,7 +6480,7 @@
 				)
 			)
 		)
-		(property "Value" "BC847"
+		(property "Value" "BC847BTT1G"
 			(at 170.815 111.9886 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7013,7 +7013,7 @@
 				)
 			)
 		)
-		(property "Value" "BC847"
+		(property "Value" "BC847BTT1G"
 			(at 170.815 144.3736 0)
 			(show_name no)
 			(do_not_autoplace no)

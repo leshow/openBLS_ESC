@@ -2241,8 +2241,8 @@
 				)
 			)
 		)
-		(property "Value" "UT6MA3"
-			(at 0.5 -5 270)
+		(property "Value" "PMCPB5530X"
+			(at 0.5 -5 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2e50aff2-cd28-4d49-a2e1-0b011ebe59a8")
@@ -2254,7 +2254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2ad87ed2-31b3-466d-96b4-d662f3bad4d3")
@@ -2265,7 +2265,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a77a0bdd-187b-49e7-acf2-838e4a0573de")
@@ -2440,8 +2440,8 @@
 				)
 			)
 		)
-		(property "Value" "UT6MA3"
-			(at 0.5 -5 270)
+		(property "Value" "PMCPB5530X"
+			(at 0.5 -5 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8f579198-3732-4a66-9652-218a126a60b2")
@@ -2453,7 +2453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dc623f9e-77da-4286-b6e2-9684d0ad2d6c")
@@ -2464,7 +2464,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "442ac8ba-b2e6-4bfe-920a-14e35e24dd0f")
@@ -2639,7 +2639,7 @@
 				)
 			)
 		)
-		(property "Value" "UT6MA3"
+		(property "Value" "PMCPB5530X"
 			(at 0.5 -5 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2838,7 +2838,7 @@
 				)
 			)
 		)
-		(property "Value" "UT6MA3"
+		(property "Value" "PMCPB5530X"
 			(at 0.5 -5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3037,7 +3037,7 @@
 				)
 			)
 		)
-		(property "Value" "UT6MA3"
+		(property "Value" "PMCPB5530X"
 			(at 0.5 -5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3236,7 +3236,7 @@
 				)
 			)
 		)
-		(property "Value" "UT6MA3"
+		(property "Value" "PMCPB5530X"
 			(at 0.5 -5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10924,7 +10924,7 @@
 				)
 			)
 		)
-		(property "Value" "BC847"
+		(property "Value" "BC847BTT1G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "94868fee-c178-499e-83cf-355e252b8f36")
@@ -11102,7 +11102,7 @@
 				)
 			)
 		)
-		(property "Value" "BC847"
+		(property "Value" "BC847BTT1G"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "5ea9bfda-b016-47f8-b786-005494ac3a65")
@@ -11280,7 +11280,7 @@
 				)
 			)
 		)
-		(property "Value" "BC847"
+		(property "Value" "BC847BTT1G"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "0f5b5927-968f-4175-bb80-b4c5387d3ca8")
@@ -11458,7 +11458,7 @@
 				)
 			)
 		)
-		(property "Value" "BC847"
+		(property "Value" "BC847BTT1G"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "1d234b42-2616-4e15-b026-f4efe8c96df1")
@@ -11625,7 +11625,7 @@
 		(uuid "00000000-0000-0000-0000-000058b50b10")
 		(at 114.86896 118.63006 -90)
 		(property "Reference" "T402"
-			(at 0 1.7 270)
+			(at 0 1.7 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d431721d-3a67-4d60-83a2-48548831c304")
@@ -11636,8 +11636,8 @@
 				)
 			)
 		)
-		(property "Value" "BC847"
-			(at 0 0 270)
+		(property "Value" "BC847BTT1G"
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "7727daaa-1a35-4093-b0e5-c4437ce57123")
 			(effects
@@ -11648,7 +11648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3dd7f34b-2519-4c67-bf02-2704bbaa3aaf")
@@ -11659,7 +11659,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9a247945-ec90-4c15-9b6f-1bcf47dfc647")
@@ -11670,7 +11670,7 @@
 			)
 		)
 		(property "Field4" "${REFERENCE}"
-			(at 0 -1.651 270)
+			(at 0 -1.651 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "40fa26f4-1b99-4780-8478-141cfece0906")
@@ -11814,7 +11814,7 @@
 				)
 			)
 		)
-		(property "Value" "BC847"
+		(property "Value" "BC847BTT1G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ac772cab-1954-44b7-b776-58dc46208c9c")
@@ -14813,7 +14813,7 @@
 		(uuid "00000000-0000-0000-0000-000058ad6272")
 		(at 108.5049 101.4444 -90)
 		(property "Reference" "FET301"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(uuid "30fd6257-a3bb-44c9-802d-f425cd002996")
 			(effects
@@ -14824,8 +14824,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "UT6MA3"
-			(at 0.5 5 270)
+		(property "Value" "PMCPB5530X"
+			(at 0.5 5 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8b678097-272e-4010-b996-b7c860a910a2")
@@ -14838,7 +14838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "702eb366-8262-49eb-a791-cc3b3fda91e7")
@@ -14849,7 +14849,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5cbff4d5-f093-443f-8bc7-d53c301f357c")
@@ -15014,7 +15014,7 @@
 		(uuid "00000000-0000-0000-0000-000058ad6284")
 		(at 105.3719 101.4642 -90)
 		(property "Reference" "FET302"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(uuid "3cbd49e9-998b-4c4f-9813-d2a8f925b87d")
 			(effects
@@ -15025,8 +15025,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "UT6MA3"
-			(at 0.5 5 270)
+		(property "Value" "PMCPB5530X"
+			(at 0.5 5 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "770a692f-f8b4-4b6d-bc77-7525f83c7aaa")
@@ -15039,7 +15039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9415dc31-8e57-4a06-aafa-4d1ff4ddf8a2")
@@ -15050,7 +15050,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1ecfff7e-d98f-400e-ae03-8cb03deccf2c")
@@ -15226,7 +15226,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "UT6MA3"
+		(property "Value" "PMCPB5530X"
 			(at 0.5 5 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -15427,7 +15427,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "UT6MA3"
+		(property "Value" "PMCPB5530X"
 			(at 0.5 5 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -15628,7 +15628,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "UT6MA3"
+		(property "Value" "PMCPB5530X"
 			(at 0.5 5 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -24870,7 +24870,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "BC847"
+		(property "Value" "BC847BTT1G"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "941b15a4-e99d-47bd-a06e-816e22bac339")
@@ -25051,7 +25051,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "BC847"
+		(property "Value" "BC847BTT1G"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "86f6e58b-0eac-4c87-a4eb-2ddcfbd674a0")
@@ -25232,7 +25232,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "BC847"
+		(property "Value" "BC847BTT1G"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "a634bff1-dafc-44e1-9885-abeadb183bd0")
@@ -25413,7 +25413,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "BC847"
+		(property "Value" "BC847BTT1G"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "f0a6370c-79d2-4d3c-bb41-b21f30da5243")
@@ -25582,7 +25582,7 @@
 		(uuid "00000000-0000-0000-0000-000058b50b64")
 		(at 105.24236 118.64784 -90)
 		(property "Reference" "T502"
-			(at 0 -1.7 270)
+			(at 0 -1.7 90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "fc9098dc-7f2a-49c2-be74-7da5263b3b5a")
@@ -25594,8 +25594,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "BC847"
-			(at 0 0 270)
+		(property "Value" "BC847BTT1G"
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "872c0229-3b2b-4ffd-ae2e-921fa68c8bc9")
 			(effects
@@ -25607,7 +25607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0699bb9c-15ae-4d70-be86-20b8312a9e1e")
@@ -25618,7 +25618,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "803bd2c3-9ff7-43f7-b411-4885d1d7ddc5")
@@ -25629,7 +25629,7 @@
 			)
 		)
 		(property "Field4" "${REFERENCE}"
-			(at 0 1.651 270)
+			(at 0 1.651 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "482d2b9f-3a3f-4f8a-83e5-88bcf70182e8")
@@ -25775,7 +25775,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "BC847"
+		(property "Value" "BC847BTT1G"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "accea30b-6e66-4692-8884-1e662e89cb01")
@@ -26947,7 +26947,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "UT6MA3"
+		(property "Value" "PMCPB5530X"
 			(at 0.5 5 0)
 			(layer "B.Fab")
 			(hide yes)
