@@ -516,7 +516,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "tinyPEPPER2.kicad_pro",
+    "filename": "openBLS_ESC.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1166,8 +1166,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "tinyPEPPER2.kicad_sch",
-        "name": "tinyPEPPER2",
+        "filename": "openBLS_ESC.kicad_sch",
+        "name": "openBLS_ESC",
         "uuid": "b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
       }
     ],
@@ -1177,7 +1177,7 @@
   "sheets": [
     [
       "b5480a8a-eaf5-4e3b-b19a-0cc821568b0c",
-      "tinyPEPPER2"
+      "openBLS_ESC"
     ],
     [
       "00000000-0000-0000-0000-000057f7ac44",

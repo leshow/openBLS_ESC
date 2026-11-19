@@ -26,7 +26,7 @@ from svg_processor import SvgProcessor
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
-PCB_FILENAME = '../tinyPEPPER2.kicad_pcb'
+PCB_FILENAME = '../openBLS_ESC.kicad_pcb'
 
 # Have to use absolute path for build_directory otherwise pcbnew will output relative to the temp file
 BUILD_DIRECTORY = os.path.abspath('./')

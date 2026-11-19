@@ -1738,7 +1738,7 @@
 			(uuid "9b6b475f-8381-4da6-a2ac-4d618c28786b")
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(reference "TP1")
 					(unit 1)
@@ -1813,7 +1813,7 @@
 			(uuid "e59f377b-1301-4671-a90f-c49b59552568")
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(reference "TP2")
 					(unit 1)
@@ -1888,7 +1888,7 @@
 			(uuid "6a6d9d33-f445-4ff2-a69b-76bbf1151756")
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(reference "TP3")
 					(unit 1)
@@ -1963,7 +1963,7 @@
 			(uuid "841a9142-2fb8-4e20-be1e-877176b31301")
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(reference "TP4")
 					(unit 1)
@@ -2038,7 +2038,7 @@
 			(uuid "b4518c1e-e3a2-46f0-b9a7-4611e85fca33")
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(reference "TP5")
 					(unit 1)
@@ -2113,7 +2113,7 @@
 			(uuid "b6dcc039-7494-42e1-9fbd-10c846022431")
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(reference "TP6")
 					(unit 1)
@@ -2190,7 +2190,7 @@
 			(uuid "a018b3d6-0f0d-4389-a0b2-e44f9216d657")
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(reference "C2")
 					(unit 1)
@@ -2261,7 +2261,7 @@
 			)
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(reference "H1")
 					(unit 1)
@@ -2332,7 +2332,7 @@
 			)
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(reference "H2")
 					(unit 1)
@@ -2405,7 +2405,7 @@
 			)
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(reference "H3")
 					(unit 1)
@@ -2478,7 +2478,7 @@
 			)
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(reference "H4")
 					(unit 1)
@@ -2564,7 +2564,7 @@
 			(uuid "9106ca6d-6838-45c4-82ea-1bba16d4f6d1")
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(reference "U1")
 					(unit 1)
@@ -2643,7 +2643,7 @@
 			(uuid "5d32c4fa-d126-4bf2-999b-539c1bbc78b3")
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(reference "C4")
 					(unit 1)
@@ -2722,7 +2722,7 @@
 			(uuid "57dbef63-369e-45e4-a807-c0f7b8daefec")
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(reference "C1")
 					(unit 1)
@@ -2801,7 +2801,7 @@
 			(uuid "42800058-22ab-4253-8060-426cc55805ab")
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(reference "C3")
 					(unit 1)
@@ -2879,7 +2879,7 @@
 			(uuid "29f1f59a-1bef-4041-98e1-bbec9fb7f075")
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(reference "#FLG01")
 					(unit 1)
@@ -2957,7 +2957,7 @@
 			(uuid "6a543df8-2c1d-42e8-9ca4-90e505af21e1")
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(reference "#FLG02")
 					(unit 1)
@@ -3044,7 +3044,7 @@
 			)
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(page "2")
 				)
@@ -3130,7 +3130,7 @@
 			)
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(page "3")
 				)
@@ -3216,7 +3216,7 @@
 			)
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(page "4")
 				)
@@ -3302,7 +3302,7 @@
 			)
 		)
 		(instances
-			(project "tinyPEPPER2"
+			(project "openBLS_ESC"
 				(path "/b5480a8a-eaf5-4e3b-b19a-0cc821568b0c"
 					(page "5")
 				)
