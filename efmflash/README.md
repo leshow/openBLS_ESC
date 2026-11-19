@@ -44,3 +44,11 @@ esc-configurator didn't seem to work but I soldered a motor to each phase output
 ## Bluejay
 
 If you want to try bluejay (I haven't tried it yet) you can flash `S_L_50_24_v0.18.1.hex`. it should flash via the same method and bluejay 18.1 was the last version to support thse ancient EFM8BB10 mcu's
+
+
+```bash
+until ./venv/bin/python3 efm8load/efm8load.py -i; do sleep 1; done
+./venv/bin/python3 efm8load/efm8load.py -w S_L_50_24_v0.18.1.hex
+```
+
+
